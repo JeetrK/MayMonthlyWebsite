@@ -4,30 +4,108 @@ const players = [
         lastName: 'Obeng',
         position: 'Fish',
         placement: '1st',
-        photo: 'https://cdn.fishtank.live/contestants/BURT-1732479633358.jpg'
+        photo: '/imgs/BURT.jpg'
     },{
-        firstName: 'Burt',
-        lastName: 'Obeng',
+        firstName: 'Binx',
+        lastName: 'Garcia',
         position: 'Fish',
-        placement: '1st',
-        photo: 'https://cdn.fishtank.live/contestants/BURT-1732479633358.jpg'
+        placement: '2nd',
+        photo: '/imgs/BINX.jpg'
     },{
-        firstName: 'Burt',
-        lastName: 'Obeng',
+        firstName: 'Payton',
+        lastName: 'Bickerstaff',
         position: 'Fish',
-        placement: '1st',
-        photo: 'https://cdn.fishtank.live/contestants/BURT-1732479633358.jpg'
+        placement: '3rd',
+        photo: '/imgs/PAYTON.png'
     },{
-        firstName: 'Burt',
-        lastName: 'Obeng',
+        firstName: 'Simbal',
+        lastName: 'Karma',
         position: 'Fish',
-        placement: '1st',
-        photo: 'https://cdn.fishtank.live/contestants/BURT-1732479633358.jpg'
+        placement: '4th',
+        photo: '/imgs/SIMBAL.png'
     },{
-        firstName: 'Burt',
-        lastName: 'Obeng',
+        firstName: 'Mizzy',
+        lastName: 'Gill',
         position: 'Fish',
-        placement: '1st',
-        photo: 'https://cdn.fishtank.live/contestants/BURT-1732479633358.jpg'
+        placement: '5th',
+        photo: '/imgs/MIZZY.png'
+    },{
+        firstName: 'Alex',
+        lastName: 'Bernard',
+        position: 'Fish',
+        placement: '6th',
+        photo: '/imgs/ALEX.jpg'
+    },{
+        firstName: 'LaRon',
+        lastName: 'Sneed',
+        position: 'Fish',
+        placement: '7th',
+        photo: '/imgs/LARON.png'
+    },{
+        firstName: 'Alexis',
+        lastName: 'Young',
+        position: 'Fish',
+        placement: '8th',
+        photo: '/imgs/ALEXIS.png'
+    },{
+        firstName: 'Stephanie',
+        lastName: 'Mack',
+        position: 'Fish',
+        placement: '8th',
+        photo: '/imgs/SMACK.png'
+    },{
+        firstName: 'Ted',
+        lastName: 'Mosby',
+        position: 'Fish',
+        placement: '9th',
+        photo: '/imgs/TED.jpg'
+    },{
+        firstName: 'Ian',
+        lastName: 'Chen',
+        position: 'Fish',
+        placement: '10th',
+        photo: '/imgs/IAN.png'
+    },{
+        firstName: 'Luke',
+        lastName: 'Valentine',
+        position: 'Fish/Freeloader',
+        placement: '11th/2nd',
+        photo: '/imgs/LUKE.jpg'
+    },{
+        firstName: 'Jobe',
+        lastName: '',
+        position: 'Freeloader',
+        placement: '',
+        photo: '/imgs/JOBE.png'
+    },{
+        firstName: 'Connor',
+        lastName: 'Rush',
+        position: 'Freeloader',
+        placement: '',
+        photo: '/imgs/CONNOR.png'
+    },{
+        firstName: 'Frank',
+        lastName: 'Hassle',
+        position: 'Freeloader',
+        placement: '',
+        photo: '/imgs/FRANK.png'
+    },{
+        firstName: 'Jeremy',
+        lastName: 'Gold',
+        position: 'Host',
+        placement: '',
+        photo: '/imgs/JEREMY.png'
+    },{
+        firstName: 'Jet',
+        lastName: 'Neptune',
+        position: 'Producer',
+        placement: '',
+        photo: '/imgs/JET.png'
+    },{
+        firstName: 'Ben',
+        lastName: 'Taylor',
+        position: 'Producer',
+        placement: '',
+        photo: '/imgs/BEN.png'
     },
 ]
