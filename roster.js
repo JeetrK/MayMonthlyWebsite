@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
   
         col.innerHTML = `
-          <div class="card h-100 shadow-sm">
+          <div class="card h-100 shadow-sm" style="margin-top: 20px;">
             <img src="${p.photo}" class="card-img-top" alt="${p.firstName} ${p.lastName}">
             <div class="card-body text-center">
               <h5 class="card-title mb-1">${p.firstName} ${p.lastName}</h5>

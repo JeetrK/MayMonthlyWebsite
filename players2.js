@@ -7,13 +7,13 @@ const players = [
         photo: '/imgs2/TJ.png'
     },{
         firstName: 'Shinji',
-        lastName: 'Kawasaki',
+        lastName: 'K',
         position: 'Fish',
         placement: '2nd',
         photo: '/imgs2/SHINJI.png'
     },{
         firstName: 'Tayleigh',
-        lastName: 'Pendleton',
+        lastName: 'P',
         position: 'Fish',
         placement: '3rd',
         photo: '/imgs2/TAYLEIGH.png'
@@ -43,7 +43,7 @@ const players = [
         photo: '/imgs2/COLE.png'
     },{
         firstName: 'Summer',
-        lastName: 'Pelkey',
+        lastName: 'P',
         position: 'Fish',
         placement: '9th',
         photo: '/imgs2/SUMMER.png'
@@ -85,7 +85,7 @@ const players = [
         photo: '/imgs2/TAI.png'
     },{
         firstName: 'Dunyay',
-        lastName: 'Enasche',
+        lastName: 'E',
         position: 'Freeloader',
         placement: '',
         photo: '/imgs2/DUNYAY.png'

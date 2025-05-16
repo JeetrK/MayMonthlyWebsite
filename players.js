@@ -7,13 +7,13 @@ const players = [
         photo: '/imgs/BURT.jpg'
     },{
         firstName: 'Binx',
-        lastName: 'Garcia',
+        lastName: '',
         position: 'Fish',
         placement: '2nd',
         photo: '/imgs/BINX.jpg'
     },{
         firstName: 'Payton',
-        lastName: 'Bickerstaff',
+        lastName: 'B',
         position: 'Fish',
         placement: '3rd',
         photo: '/imgs/PAYTON.png'
@@ -48,8 +48,8 @@ const players = [
         placement: '8th',
         photo: '/imgs/ALEXIS.png'
     },{
-        firstName: 'Stephanie',
-        lastName: 'Mack',
+        firstName: 'Smack',
+        lastName: '',
         position: 'Fish',
         placement: '8th',
         photo: '/imgs/SMACK.png'
