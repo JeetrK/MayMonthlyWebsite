@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (p.position.includes("Fish")) {
         bgColor = "#f60404";
       } else if (p.position.includes("Freeloader")) {
-        bgColor = "#4cb89d";
+        bgColor = "#4138e8";
       } else if (p.position.includes("Host")) {
         bgColor = "#fc9404";
       } else if (p.position.includes("Producer")) {
@@ -32,10 +32,10 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       col.innerHTML = `
-        <div class="card h-100 shadow-sm" style="margin-top: 20px;">
+        <div class="card h-100 shadow-sm card-custom-bg" style="margin-top: 20px;">
           <img src="${p.photo}" class="card-img-top" alt="${p.firstName} ${p.lastName}">
           <div class="card-body text-center">
-            <h5 class="card-title mb-1">${p.firstName} ${p.lastName}</h5>
+            <h5 class="card-title mb-1" style="color: white;">${p.firstName} ${p.lastName}</h5>
             <div class='badge badge-position' style="background-color: ${bgColor};">${p.position}</div>
             ${placementHTML}
           </div>

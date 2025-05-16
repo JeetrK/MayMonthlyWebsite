@@ -17,8 +17,12 @@
   }
 
   body {
-background-color: #201c24;
+background-color: #1c1c24;
   }
+
+.card-custom-bg {
+  background-color: #14141c;
+}
 
 
   
