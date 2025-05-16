@@ -19,6 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
           bgColor = "#f0cc64";
         } else if (p.position.includes("Producer")) {
           bgColor = "#201c24";
+        } else if (p.position.includes("Contestant/Loader")) {
+          bgColor = "#7632c9";
         }
   
         col.innerHTML = `

@@ -68,7 +68,7 @@ const players = [
     },{
         firstName: 'Luke',
         lastName: 'Valentine',
-        position: 'Fish/Freeloader',
+        position: 'Contestant/Loader',
         placement: '11th/2nd',
         photo: '/imgs/LUKE.jpg'
     },{
