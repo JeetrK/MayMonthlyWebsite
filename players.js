@@ -75,37 +75,37 @@ const players = [
         firstName: 'Jobe',
         lastName: '',
         position: 'Freeloader',
-        placement: '',
+        placement: 'none',
         photo: '/imgs/JOBE.png'
     },{
         firstName: 'Connor',
         lastName: 'Rush',
         position: 'Freeloader',
-        placement: '',
+        placement: 'none',
         photo: '/imgs/CONNOR.png'
     },{
         firstName: 'Frank',
         lastName: 'Hassle',
         position: 'Freeloader',
-        placement: '',
+        placement: 'none',
         photo: '/imgs/FRANK.png'
     },{
         firstName: 'Jeremy',
         lastName: 'Gold',
         position: 'Host',
-        placement: '',
+        placement: 'none',
         photo: '/imgs/JEREMY.png'
     },{
         firstName: 'Jet',
         lastName: 'Neptune',
         position: 'Producer',
-        placement: '',
+        placement: 'none',
         photo: '/imgs/JET.png'
     },{
         firstName: 'Ben',
         lastName: 'Taylor',
         position: 'Producer',
-        placement: '',
+        placement: 'none',
         photo: '/imgs/BEN.png'
     },
 ]

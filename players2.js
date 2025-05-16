@@ -57,73 +57,73 @@ const players = [
         firstName: 'Taylor',
         lastName: 'Lewis',
         position: 'Freeloader',
-        placement: '',
+        placement: 'none',
         photo: '/imgs2/TAYLOR.png'
     },{
         firstName: 'Nifty',
         lastName: '',
         position: 'Freeloader',
-        placement: '',
+        placement: 'none',
         photo: '/imgs2/NIFTY.png'
     },{
         firstName: 'Abi',
         lastName: 'Britney',
         position: 'Freeloader',
-        placement: '',
+        placement: 'none',
         photo: '/imgs2/ABI.png'
     },{
         firstName: 'Frank',
         lastName: 'Hassle',
         position: 'Freeloader',
-        placement: '',
+        placement: 'none',
         photo: '/imgs2/FRANKS2.png'
     },{
         firstName: 'Tai',
         lastName: 'Nguyen',
         position: 'Freeloader',
-        placement: '',
+        placement: 'none',
         photo: '/imgs2/TAI.png'
     },{
         firstName: 'Dunyay',
         lastName: 'E',
         position: 'Freeloader',
-        placement: '',
+        placement: 'none',
         photo: '/imgs2/DUNYAY.png'
     },{
         firstName: 'Oliver',
         lastName: '',
         position: 'Freeloader',
-        placement: '',
+        placement: 'none',
         photo: '/imgs2/OLIVER.png'
     },{
         firstName: 'Mr.Beast/Greg',
         lastName: '',
         position: 'Freeloader',
-        placement: '',
+        placement: 'none',
         photo: '/imgs2/GREG.png'
     },{
         firstName: 'Chris',
         lastName: '',
         position: 'Freeloader',
-        placement: '',
+        placement: 'none',
         photo: '/imgs2/CHRIS.png'
     },{
         firstName: 'Judge Jedidiah',
         lastName: 'Goldstriker',
         position: 'Host',
-        placement: '',
+        placement: 'none',
         photo: '/imgs2/JUDGE.png'
     },{
         firstName: 'Jet',
         lastName: 'Neptune',
         position: 'Producer',
-        placement: '',
+        placement: 'none',
         photo: '/imgs2/JET2.png'
     },{
         firstName: 'Ben',
         lastName: 'Taylor',
         position: 'Producer',
-        placement: '',
+        placement: 'none',
         photo: '/imgs2/BEN.png'
     },
 ]
