@@ -33,6 +33,19 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
           </div>
         `;
+
+          
+        let card = col.querySelector('.card');
+
+        
+        card.addEventListener('mouseenter', function() {
+          card.style.transform = "scale(1.05) rotateY(10deg)" ;  
+          card.style.transition = "transform 0.3s ease-in-out";    
+        });
+
+        card.addEventListener('mouseleave', function() {
+          card.style.transform = "scale(1) rotateY(0deg)";    
+        });
   
         grid.appendChild(col);
       });
