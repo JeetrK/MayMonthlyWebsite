@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
       col.className = "col-6 col-lg-2";
 
       let bgColor = "#ffffff";
+      let positionTextStyle = "bold"; 
+      let positionTextColor = "white"; 
 
       if (p.position.includes("Fish")) {
         bgColor = "#f60404";
@@ -17,17 +19,19 @@ document.addEventListener("DOMContentLoaded", () => {
       } else if (p.position.includes("Host")) {
         bgColor = "#fc9404";
       } else if (p.position.includes("Producer")) {
-        bgColor = "#201c24";
+        bgColor = "#FFFFFF";
+        positionTextColor = "black"; 
       } else if (p.position.includes("Contestant/Loader")) {
         bgColor = "#7632c9";
       }
 
       let placementHTML = "";
+
       if (p.placement !== "none") {
         if (p.placement === "1st") {
           placementHTML = `<p class="small mb-0" style="color: gold; text-shadow: 0 0 5px gold, 0 0 10px goldenrod;">placement ${p.placement}</p>`;
         } else {
-          placementHTML = `<p class="small text-muted mb-0">placement ${p.placement}</p>`;
+          placementHTML = `<p class="small mb-0" style="color: white;">placement ${p.placement}</p>`;
         }
       }
 
@@ -36,20 +40,25 @@ document.addEventListener("DOMContentLoaded", () => {
           <img src="${p.photo}" class="card-img-top" alt="${p.firstName} ${p.lastName}">
           <div class="card-body text-center">
             <h5 class="card-title mb-1" style="color: white;">${p.firstName} ${p.lastName}</h5>
-            <div class='badge badge-position' style="background-color: ${bgColor};">${p.position}</div>
+            <div class='badge badge-position' style="background-color: ${bgColor}; color: ${positionTextColor}; font-weight: ${positionTextStyle};">
+              ${p.position}
+            </div>
             ${placementHTML}
           </div>
         </div>
       `;
 
-      let card = col.querySelector('.card');
+      let card = col.querySelector(".card");
 
-      card.addEventListener('mouseenter', function () {
+      card.style.border = "2px solid white"; 
+
+
+      card.addEventListener("mouseenter", function () {
         card.style.transform = "scale(1.05) rotateY(20deg)";
         card.style.transition = "transform 0.3s ease-in-out";
       });
 
-      card.addEventListener('mouseleave', function () {
+      card.addEventListener("mouseleave", function () {
         card.style.transform = "scale(1) rotateY(0deg)";
       });
 
@@ -60,5 +69,3 @@ document.addEventListener("DOMContentLoaded", () => {
   render(players);
 });
 
-
-  

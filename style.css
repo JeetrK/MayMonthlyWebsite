@@ -23,7 +23,16 @@ background-color: #1c1c24;
 .card-custom-bg {
   background-color: #14141c;
 }
-
+.nav-link {
+  font-family: 'Alte Haas Grotesk', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+h1 {
+  font-family: 'Alte Haas Grotesk', sans-serif;
+  color: white;
+  font-weight: bold;
+}
 
   
 
