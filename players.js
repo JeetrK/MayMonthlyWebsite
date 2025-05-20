@@ -4,7 +4,8 @@ const players = [
         lastName: 'Obeng',
         position: 'Fish',
         placement: '1st',
-        photo: '/imgs/BURT.jpg'
+        photo: '/imgs/BURT.jpg',
+        hiddenDetail: 'BURT WAKE UP'
     },{
         firstName: 'Binx',
         lastName: '',

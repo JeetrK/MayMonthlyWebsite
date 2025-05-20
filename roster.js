@@ -44,6 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
               ${p.position}
             </div>
             ${placementHTML}
+            <button class="btn btn-info mt-2 more-info-btn" data-bs-toggle="modal" data-bs-target="#playerModal" data-player-id="${p.id}">More Info</button>
           </div>
         </div>
       `;
@@ -51,7 +52,6 @@ document.addEventListener("DOMContentLoaded", () => {
       let card = col.querySelector(".card");
 
       card.style.border = "2px solid white"; 
-
 
       card.addEventListener("mouseenter", function () {
         card.style.transform = "scale(1.05) rotateY(20deg)";
@@ -64,8 +64,27 @@ document.addEventListener("DOMContentLoaded", () => {
 
       grid.appendChild(col);
     });
+
+    addModalListener(); // Add the listener after rendering the cards
   };
 
-  render(players);
+  // Add event listener for the "More Info" button
+  function addModalListener() {
+    const moreInfoButtons = document.querySelectorAll(".more-info-btn");
+
+    moreInfoButtons.forEach(button => {
+      button.addEventListener("click", function () {
+        // Use 'this' to access the clicked button
+        const playerId = this.getAttribute("data-player-id");
+        const player = players.find(p => p.id == playerId); // Find the player using the ID
+
+        const modalBody = document.querySelector("#playerModal .modal-body");
+        modalBody.textContent = player.hiddenDetail; // Display the hidden detail in the modal
+      });
+    });
+  }
+
+  render(players); // Assuming 'players' is an array of player objects
 });
+
 
