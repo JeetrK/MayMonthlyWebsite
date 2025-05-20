@@ -77,12 +77,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
     moreInfoButtons.forEach(button => {
       button.addEventListener("click", function () {
-        
         const playerId = this.getAttribute("data-player-id");
         const player = players.find(p => p.id == playerId); 
 
+        
+        console.log("Player Data: ", player);
+
+       
         const modalBody = document.querySelector("#playerModal .modal-body");
-        modalBody.textContent = player.hiddenDetail; 
+        if (player && player.hiddenDetail) {
+          modalBody.textContent = player.hiddenDetail; 
+        } else {
+          modalBody.textContent = "No hidden details available."; 
+        }
       });
     });
   }

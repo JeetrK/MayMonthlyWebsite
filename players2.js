@@ -108,17 +108,21 @@ const players = [
         placement: 'none',
         photo: '/imgs2/CHRIS.png'
     },{
+        id: "16",
         firstName: 'Judge Jedidiah',
         lastName: 'Goldstriker',
         position: 'Host',
         placement: 'none',
-        photo: '/imgs2/JUDGE.png'
+        photo: '/imgs2/JUDGE.png',
+        hiddenDetail: 'Real name Sam Hyde, is an American comedian. He is a co-founder of the sketch comedy group Million Dollar Extreme (MDE), alongside Nick Rochefort and Charls Carroll. Hyde co-created produced the series World Peace, and was a host of the reality series Fishtank.'
     },{
+        id: "17",
         firstName: 'Jet',
         lastName: 'Neptune',
         position: 'Producer',
         placement: 'none',
-        photo: '/imgs2/JET2.png'
+        photo: '/imgs2/JET2.png',
+        hiddenDetail: 'Jet Neptune is the co-creator, director and an executive producer of Fishtank. He is also credited as an editor for the shows edited episodes'
     },{
         firstName: 'Ben',
         lastName: 'Taylor',
