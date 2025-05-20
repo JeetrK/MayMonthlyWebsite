@@ -56,35 +56,38 @@ document.addEventListener("DOMContentLoaded", () => {
       card.addEventListener("mouseenter", function () {
         card.style.transform = "scale(1.05) rotateY(20deg)";
         card.style.transition = "transform 0.3s ease-in-out";
+        card.style.border = "2px solid red";
       });
 
       card.addEventListener("mouseleave", function () {
         card.style.transform = "scale(1) rotateY(0deg)";
+        card.style.transition = "transform 0.3s ease-in-out";
+        card.style.border = "2px solid white"; 
       });
 
       grid.appendChild(col);
     });
 
-    addModalListener(); // Add the listener after rendering the cards
+    addModalListener(); 
   };
 
-  // Add event listener for the "More Info" button
+  
   function addModalListener() {
     const moreInfoButtons = document.querySelectorAll(".more-info-btn");
 
     moreInfoButtons.forEach(button => {
       button.addEventListener("click", function () {
-        // Use 'this' to access the clicked button
+        
         const playerId = this.getAttribute("data-player-id");
-        const player = players.find(p => p.id == playerId); // Find the player using the ID
+        const player = players.find(p => p.id == playerId); 
 
         const modalBody = document.querySelector("#playerModal .modal-body");
-        modalBody.textContent = player.hiddenDetail; // Display the hidden detail in the modal
+        modalBody.textContent = player.hiddenDetail; 
       });
     });
   }
 
-  render(players); // Assuming 'players' is an array of player objects
+  render(players); 
 });
 
 

@@ -82,15 +82,30 @@ h1 {
   font-size: 16px;
 }
 .more-info-btn {
-  background-color: #ff0000; 
+  background-color: transparent; 
   color: white; 
-  font-weight: bold; 
-  border: none; 
-  padding: 10px 20px; 
-  font-family: 'Alte Haas Grotesk', sans-serif; 
-  border-radius: 5px; 
-  transition: background-color 0.3s ease; 
+  font-weight: bold;
+  border: 2px solid white; 
+  padding: 10px 20px;
+  font-family: 'Alte Haas Grotesk', sans-serif;
+  border-radius: 5px;
+  transition: all 0.3s ease; 
 }
+
+.more-info-btn:hover {
+  background-color: transparent; 
+  color: #ff0000; 
+  border: 2px solid #ff0000; 
+}
+.card-custom {
+}
+
+.card-custom:hover {
+  border-color: #ff0000; 
+}
+
+
+
 
   
 
