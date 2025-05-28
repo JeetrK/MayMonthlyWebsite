@@ -76,7 +76,8 @@ const players = [
         lastName: 'Hassle',
         position: 'Freeloader',
         placement: 'none',
-        photo: '/imgs2/FRANKS2.png'
+        photo: '/imgs2/FRANKS2.png',
+        hiddenDetail: 'Frank Hassle is a controversial internet personality and content creator known for his confrontational and provocative public videos. He was introduced to fishtank in season one and became a reocurring freeloader every season. He is put into the house usually twoards the end with the main goal of harrasing the fish and pushing everyone to their limit.'
     },{
         firstName: 'Tai',
         lastName: 'Nguyen',
@@ -128,6 +129,7 @@ const players = [
         lastName: 'Taylor',
         position: 'Producer',
         placement: 'none',
-        photo: '/imgs2/BEN.png'
+        photo: '/imgs2/BEN.png',
+        hiddenDetail: 'Benjamin Taylor, also known as Ben Bush, is a producer for Fishtank'
     },
 ]
