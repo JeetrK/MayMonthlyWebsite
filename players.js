@@ -6,7 +6,7 @@ const players = [
         position: 'Fish',
         placement: '1st',
         photo: '/imgs/BURT.jpg',
-        hiddenDetail: 'An actor, firefighter, math professor, heavyweight boxer, gym coach, and personal fitness trainer. He claims to have an IQ of 160 and that he is recognized by mensa. Winner of season 3'
+        hiddenDetail: 'An actor, firefighter, math professor, heavyweight boxer, gym coach, and personal fitness trainer. He claims to have an IQ of 160 and that he is recognized by mensa. He is the most endorsed fish ever and the Winner of season 3'
     },{
         id: "2",
         firstName: 'Binx',
