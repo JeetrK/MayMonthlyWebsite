@@ -160,6 +160,7 @@ const players = [
         photo: '/imgs2/JET2.png',
         hiddenDetail: 'Jet Neptune is the co-creator, director and an executive producer of Fishtank. He is also credited as an editor for the shows edited episodes'
     },{
+        id: '18',
         firstName: 'Ben',
         lastName: 'Taylor',
         position: 'Producer',
