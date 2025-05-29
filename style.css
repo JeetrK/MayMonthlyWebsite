@@ -109,6 +109,11 @@ h1 {
   box-shadow: none;
   background-color: inherit;
 }
+h5 {
+  font-family: 'Alte Haas Grotesk', sans-serif;
+  color: white;
+  font-weight: bold;
+}
 
 
 
