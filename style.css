@@ -114,6 +114,33 @@ h5 {
   color: white;
   font-weight: bold;
 }
+.seasoncard {
+  width: 100%;
+  max-width: 600px; 
+}
+
+.seasoncard .card {
+  height: 30vh; 
+  overflow: hidden;
+  transition: border-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.seasoncard:hover .card {
+  border-color: red;
+  transform: scale(1.05) rotateY(20deg);
+}
+
+.card-img-top {
+  height: 60%;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 0.5rem;
+}
+
+
+
 
 
 
